@@ -16,3 +16,11 @@ This project performs sentiment analysis on Amazon product reviews using Python 
 
 ## Use Case
 Useful for understanding customer sentiment from product reviews.
+
+## Example Prediction
+
+Input:
+"This product is amazing and works perfectly."
+
+Output:
+Positive ★★★★★
