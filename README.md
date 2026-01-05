@@ -1,26 +1,34 @@
 # Amazon Review Sentiment Analysis
 
-This project performs sentiment analysis on Amazon product reviews using Python and machine learning.
+## Problem Statement
+Customers leave thousands of reviews on e-commerce platforms.
+Manually understanding customer sentiment is difficult and time-consuming.
+
+## Objective
+To classify Amazon product reviews as Positive or Negative using Python and Machine Learning.
+
+## Dataset
+- Source: Amazon product reviews dataset
+- Size: (mention approx rows if you know)
+- Type: Text reviews with sentiment labels
+
+## Approach
+- Data cleaning and preprocessing
+- Text vectorization (TF-IDF / CountVectorizer)
+- Model training and evaluation
+- Sentiment prediction
 
 ## Technologies Used
 - Python
-- Pandas
-- TF-IDF Vectorizer
-- Logistic Regression (scikit-learn)
+- Pandas, NumPy
+- Scikit-learn
+- NLP techniques
 
-## Features
-- Text preprocessing and cleaning
-- Binary sentiment classification (Positive / Negative)
-- Model evaluation with accuracy and classification report
-- Saved trained model for future predictions
+## Results
+- Model accuracy: XX%
+- Key observations
 
-## Use Case
-Useful for understanding customer sentiment from product reviews.
-
-## Example Prediction
-
-Input:
-"This product is amazing and works perfectly."
-
-Output:
-Positive ★★★★★
+## Future Improvements
+- Handle neutral reviews
+- Deploy model using Flask/FastAPI
+- Improve accuracy with advanced NLP models
