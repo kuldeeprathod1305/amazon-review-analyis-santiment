@@ -32,3 +32,4 @@ To classify Amazon product reviews as Positive or Negative using Python and Mach
 - Handle neutral reviews
 - Deploy model using Flask/FastAPI
 - Improve accuracy with advanced NLP models
+ik needs a lot of accuracy
